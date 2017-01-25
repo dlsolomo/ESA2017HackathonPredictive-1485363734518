@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: ESA2017HackathonPredictive
+  host: ESA2017HackathonPredictive
+  disk_quota: 1024M
+  services:
+  - performance-monitoring-auto
+  - ESA2017HackathonPredictive-cloudantNoSQLDB
+  - 2017Hackathon
